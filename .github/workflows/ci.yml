@@ -59,6 +59,6 @@ jobs:
     - name: Build iOS framework
       run: |
         ./gradlew :shared:compileIosMainKotlinMetadata
-        ./gradlew :shared:compileIosX64
-        ./gradlew :shared:compileIosArm64
-        ./gradlew :shared:compileIosSimulatorArm64
+        ./gradlew :shared:compileKotlinIosX64
+        ./gradlew :shared:compileKotlinIosArm64
+        ./gradlew :shared:compileKotlinIosSimulatorArm64
